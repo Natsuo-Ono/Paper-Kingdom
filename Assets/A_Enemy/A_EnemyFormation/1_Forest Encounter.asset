@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 297f4ebae37427d46a4e30fa74361f8e, type: 3}
+  m_Name: 1_Forest Encounter
+  m_EditorClassIdentifier: Assembly-CSharp::EncounterDatabase
+  area: 0
+  formations:
+  - {fileID: 11400000, guid: 6539d542564c5374080435a76221bab7, type: 2}
+  - {fileID: 11400000, guid: 79b375244c22b704ca195279294c9210, type: 2}
+  - {fileID: 11400000, guid: 14afa322720fa75449df348a0a756071, type: 2}
+  - {fileID: 11400000, guid: 318177c47fdc364499729dc40e0c99fe, type: 2}
+  - {fileID: 11400000, guid: 3efc5f07ddeb5224f8f62a888a3b0ac1, type: 2}
+  - {fileID: 11400000, guid: 327dd95279ef73a4fa791a74a4f7f564, type: 2}

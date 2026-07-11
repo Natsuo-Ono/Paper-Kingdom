@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03b1bb796b2182448e18d83b3bb574f, type: 3}
+  m_Name: Lucien_Ultimate
+  m_EditorClassIdentifier: Assembly-CSharp::Skill
+  skillName: Mecha Body
+  description: '"If this body can still move... then I''ll stand between you and
+    danger."
+
+
+    Lucien deals 100% Atk dmg to a single target, applies taunt to
+    himself for 1 turn, and applies 50% shield to himself.'
+  skillType: 0
+  targetType: 0
+  scalingType: 0
+  multiplier: 100
+  ultimateCharge: 3
+  specialEffect: 0
+  reviveHPPercent: 0
+  instantKillChance: 0
+  bossInstantKillChance: 0
+  statusApplications:
+  - statusEffect: 15
+    chance: 100
+  - statusEffect: 14
+    chance: 100

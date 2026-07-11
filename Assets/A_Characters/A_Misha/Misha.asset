@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525a931bf358a464684fa28dc3b298fa, type: 3}
+  m_Name: Misha
+  m_EditorClassIdentifier: Assembly-CSharp::Character
+  characterName: Misha
+  description: A curious fire mage whose determination burns brighter than his flames.
+    Though still refining his craft, he never hesitates to stand against danger to
+    protect those around him.
+  characterClass: 2
+  element: 0
+  icon: {fileID: 21300000, guid: e2ba6955a1367a549b670a89ffa2cce2, type: 3}
+  portrait: {fileID: 21300000, guid: e2ba6955a1367a549b670a89ffa2cce2, type: 3}
+  battleSprite: {fileID: 21300000, guid: e2ba6955a1367a549b670a89ffa2cce2, type: 3}
+  baseHP: 56
+  baseAttack: 60
+  baseDefense: 0
+  basicAttack: {fileID: 11400000, guid: bc09ebc66d5f3f0408c82a0c34de3462, type: 2}
+  ultimate: {fileID: 11400000, guid: fdc726bc77eba03449a6b47afddb12cf, type: 2}
+  passive: {fileID: 11400000, guid: 5b0d6cc7d550f344dae49a1610ace52a, type: 2}

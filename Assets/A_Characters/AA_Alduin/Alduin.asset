@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525a931bf358a464684fa28dc3b298fa, type: 3}
+  m_Name: Alduin
+  m_EditorClassIdentifier: Assembly-CSharp::Character
+  characterName: Alduin
+  characterClass: 1
+  element: 7
+  baseHP: 79
+  baseAttack: 76
+  baseDefense: 0
+  level: 0
+  maxHP: 0
+  attack: 0
+  defense: 0
+  basicAttack: {fileID: 11400000, guid: 0b51ccf702aea7c4b8b99fed41d07f48, type: 2}
+  ultimate: {fileID: 11400000, guid: 1c107866bd17a864b8d11382914e1d96, type: 2}
+  passive: {fileID: 11400000, guid: 553bbc5c4f988fd4f91ad5feac83d650, type: 2}

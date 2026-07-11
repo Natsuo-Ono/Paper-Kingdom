@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0265cca721cd14cb035d5bd68ab94d, type: 3}
+  m_Name: Forest_Hound
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  enemyID: 1
+  enemyName: Forest Hound
+  description: 
+  enemyRank: 0
+  characterClass: 1
+  element: 2
+  icon: {fileID: 21300000, guid: 388fcb7b462d11e4e93a2c055ff4807e, type: 3}
+  baseHP: 34
+  baseAttack: 5
+  baseDefense: 0
+  useFixedStats: 0
+  fixedHP: 0
+  fixedAttack: 0
+  fixedDefense: 0
+  fixedShield: 0
+  basicAttack: {fileID: 11400000, guid: a7bdfc363b9ea5c4b81407cf00c62843, type: 2}
+  ultimate: {fileID: 11400000, guid: c9faa0c6d34719c4e9a796a5bb378a30, type: 2}
+  passive: {fileID: 0}
+  useFixedRewards: 0
+  fixedEXP: 0
+  fixedGold: 0
+  baseEXP: 10
+  baseGold: 3

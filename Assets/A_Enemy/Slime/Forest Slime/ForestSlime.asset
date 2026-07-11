@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0265cca721cd14cb035d5bd68ab94d, type: 3}
+  m_Name: ForestSlime
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  enemyID: 0
+  enemyName: Forest Slime
+  description: 
+  enemyRank: 0
+  characterClass: 4
+  element: 2
+  icon: {fileID: 21300000, guid: 836d3d4d42657a14dbd68fd9a410d43b, type: 3}
+  baseHP: 20
+  baseAttack: 2
+  baseDefense: 0
+  useFixedStats: 0
+  fixedHP: 0
+  fixedAttack: 0
+  fixedDefense: 0
+  fixedShield: 0
+  basicAttack: {fileID: 11400000, guid: efec74814519e98439f8a0734b181a86, type: 2}
+  ultimate: {fileID: 11400000, guid: d8bdee568ad9a5244a129090696e9425, type: 2}
+  passive: {fileID: 0}
+  useFixedRewards: 0
+  fixedEXP: 0
+  fixedGold: 0
+  baseEXP: 5
+  baseGold: 1

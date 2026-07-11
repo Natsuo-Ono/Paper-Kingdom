@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03b1bb796b2182448e18d83b3bb574f, type: 3}
+  m_Name: Caroline_Ultimate
+  m_EditorClassIdentifier: Assembly-CSharp::Skill
+  skillName: Soul Grab
+  description: "\"Come my child. There's nothing left for you to be here in this
+    wretched world as your soul is mine.\" \r\n\r\nCaroline does 100% atk AoE bleeding,
+    corrosion, and sleep and 10% instant kill on non-boss enemies and 1% to boss
+    enemies"
+  skillType: 0
+  targetType: 2
+  scalingType: 0
+  multiplier: 100
+  ultimateCharge: 3
+  specialEffect: 3
+  reviveHPPercent: 0
+  instantKillChance: 25
+  bossInstantKillChance: 5
+  statusApplications:
+  - statusEffect: 4
+    chance: 100
+  - statusEffect: 5
+    chance: 100
+  - statusEffect: 12
+    chance: 100

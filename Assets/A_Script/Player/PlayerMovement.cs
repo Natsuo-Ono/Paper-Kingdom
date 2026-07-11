@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public float rotationSpeed = 10f;
 
     private CharacterController controller;
+    private float encounterTimer;
 
     void Start()
     {
@@ -35,5 +36,36 @@ public class PlayerMovement : MonoBehaviour
                 rotationSpeed * Time.deltaTime
             );
         }
+
+        if (moveDirection != Vector3.zero)
+        {
+            encounterTimer += Time.deltaTime;
+
+            if (encounterTimer >= 1f)
+            {
+                encounterTimer = 0f;
+                EncounterManager.Instance.TryEncounter();
+            }
+        }
+        else
+        {
+            encounterTimer = 0f;
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        EncounterTrigger trigger = other.GetComponent<EncounterTrigger>();
+
+        if (trigger != null)
+            EncounterManager.Instance.EnterTrigger(trigger);
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        EncounterTrigger trigger = other.GetComponent<EncounterTrigger>();
+
+        if (trigger != null)
+            EncounterManager.Instance.ExitTrigger();
     }
 }
